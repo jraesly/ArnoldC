@@ -1,0 +1,17 @@
+start
+number isLessThan10
+initial value @true
+number n
+initial value 1
+keep trying isLessThan10
+declare x-factor n
+set value n
+plus 1
+stop declaring the x-factor
+display n
+declare x-factor isLessThan10
+set value 50
+greater than n
+stop declaring the x-factor
+stop trying
+stop
